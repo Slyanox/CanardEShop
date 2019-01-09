@@ -14,7 +14,7 @@ services:
          - DatabaseServer=mssqlserver
          - DatabaseName=CatalogDb
          - DatabaseUser=sa
-         - DatabasePassword=ProducApi(!)
+         - DatabasePassword=ProductApi(!)
       container_name: catalogapi
       ports:
          - "5000:80"
