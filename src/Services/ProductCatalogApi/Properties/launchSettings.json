@@ -19,6 +19,7 @@
     "ProductCatalogApi": {
       "commandName": "Project",
       "launchBrowser": true,
+      "launchUrl": "api/catalog/items",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
