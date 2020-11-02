@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('First') {
       steps {
-        timestamps()
+        echo 'Hello'
       }
     }
 
